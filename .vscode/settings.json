@@ -1,0 +1,12 @@
+{
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "npm.packageManager": "pnpm",
+  "tailwindCSS.experimental.configFile": {
+    "./apps/app-1/app/tailwind.css": "./apps/app-1/app/**/*",
+    "./apps/app-2/app/tailwind.css": "./apps/app-2/app/**/*",
+    "./packages/ui-1/src/tailwind.css": "./packages/ui-1/src/**/*",
+    "./packages/ui-2/src/tailwind.css": "./packages/ui-2/src/**/*"
+  }
+}

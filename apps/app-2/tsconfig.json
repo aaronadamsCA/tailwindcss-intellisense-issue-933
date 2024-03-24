@@ -1,0 +1,12 @@
+{
+  "extends": "@aaronadams/tsconfig/tsconfig.base.json",
+  "include": ["**/*"],
+  "exclude": ["build", "public"],
+  "compilerOptions": {
+    "types": [
+      "@cloudflare/workers-types/2023-07-01",
+      "@remix-run/cloudflare",
+      "vite/client"
+    ]
+  }
+}

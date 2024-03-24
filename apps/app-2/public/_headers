@@ -1,0 +1,9 @@
+# NOTES:
+# - This file only affects static files, not app routes
+# - Cloudflare configuration may override some header values
+
+/favicon.ico
+  Cache-Control: public, max-age=14400
+
+/build/*
+  Cache-Control: public, max-age=31536000, immutable

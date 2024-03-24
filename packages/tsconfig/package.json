@@ -1,0 +1,9 @@
+{
+  "name": "@aaronadams/tsconfig",
+  "private": true,
+  "sideEffects": false,
+  "type": "module",
+  "exports": {
+    "./tsconfig.base.json": "./tsconfig.base.json"
+  }
+}
